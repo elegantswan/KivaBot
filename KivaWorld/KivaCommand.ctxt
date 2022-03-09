@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=KivaCommand
+comment0.text=\n\ Enum\ that\ contains\ 5\ possible\ actions\ for\ a\ Kiva\ robot\ to\ perform\:\ move\ forward,\ left,\ right,\ take,\ or\ drop\ a\ pod.\n\ These\ values\ are\ specified\ by\ the\ user\ and\ enable\ the\ robot\ to\ \n\ move\ around\ the\ map.\n\ @author\ Kevin\ Phan\n\ @version\ 4/5/2021\n
+comment1.params=directionKey
+comment1.target=KivaCommand(char)
+comment1.text=\n\ Allows\ user\ to\ call\ individual\ enum.\n\ @param\ directionKey\ This\ is\ the\ key\ to\ one\ of\ 5\ enum\ values.\ \n
+comment2.params=
+comment2.target=char\ getDirectionKey()
+comment2.text=\n\ Returns\ directionKey\ value\ that\ user\ specified.\n\ @return\ directionKey\ value.\n
+numComments=3

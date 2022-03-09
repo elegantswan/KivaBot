@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=RemoteControl
+comment0.text=\n\ RemoteControl\ is\ the\ main\ class\ that\ will\ run\ the\ Kiva\ object.\ It\ takes\ in\ \n\ a\ user\ generated\ String\ and\ converts\ it\ into\ an\ array\ of\ KivaCommands\ that\ \n\ dictate\ the\ actions\ of\ the\ Kiva\ robot.\ \n\ @author\ Kevin\ Phan\n\ @version\ 4/5/21\n
+comment1.params=
+comment1.target=RemoteControl()
+comment1.text=\n\ Prompts\ user\ to\ input\ a\ String\ of\ commands\ that\ move\ Kiva\ object\ around\ map.\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ The\ controller\ that\ directs\ Kiva's\ activity.Prompts\ the\ user\ for\ the\ floor\ map\n\ to\ load,\ displays\ the\ map,\ and\ prompts\ the\ user\ to\ provide\ commands\ that\ Kiva\ will\ execute.\n\n
+comment3.params=s
+comment3.target=void\ RemoteControlTest(java.lang.String)
+comment3.text=\n\ Test\ to\ ensure\ user\ inputs\ accurately\ convert\ to\ KivaCommand\ values.\n
+comment4.params=commandString
+comment4.target=KivaCommand[]\ convertToKivaCommands(java.lang.String)
+comment4.text=\n\ Converts\ String\ of\ characters\ into\ KivaCommands\ that\ get\ appended\ into\ an\ array\n\ in\ order\ for\ move()\ method\ to\ be\ called\ on\ Kiva\ object.\n\ @param\ commandString\ Takes\ in\ String\ of\ characters\ user\ inputs.\n
+numComments=5
